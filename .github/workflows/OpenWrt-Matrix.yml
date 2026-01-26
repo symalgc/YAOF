@@ -20,7 +20,7 @@ on:
   workflow_dispatch:
     inputs:
       targets:
-        description: "Select target platforms (comma separated, e.g. R2C,R2S,R3S,e52c,X86 ;leave blank for all, case-insensitive)"
+        description: "Select target platforms (comma separated, e.g. R2C,R2S,R3S,R4S,X86 ;leave blank for all, case-insensitive)"
         required: false
         type: string
         default: ""
